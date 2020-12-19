@@ -19,6 +19,7 @@ module.exports = [
           { text: '《JavaScript高级程序设计》笔记', link: '/note/js/' },
           { text: '《ES6 教程》笔记', link: '/note/es6/' },
           { text: '《Vue》笔记', link: '/note/vue/' },
+          { text: '《React》学习笔记', link: '/pages/f0b6b6/' },
           {
             text: '《TypeScript 从零实现 axios》',
             link: '/note/typescript-axios/',
@@ -41,6 +42,9 @@ module.exports = [
     items: [
       { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
       { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+      { text: 'less', link: '/pages/31da54/' },
+      { text: 'sass', link: '/pages/fb6540/' },
+      { text: 'stylus', link: '/pages/9f15c1a281d8bedb' }
     ],
   },
   {
