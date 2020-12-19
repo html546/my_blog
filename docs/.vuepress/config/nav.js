@@ -44,7 +44,7 @@ module.exports = [
       { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
       { text: 'less', link: '/pages/31da54/' },
       { text: 'sass', link: '/pages/fb6540/' },
-      { text: 'stylus', link: '/pages/9f15c1a281d8bedb' }
+      { text: 'stylus', link: '/pages/9f15c1a281d8bedb/' }
     ],
   },
   {
