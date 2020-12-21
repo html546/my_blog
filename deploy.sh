@@ -29,16 +29,16 @@ git push -f $githubUrl master:gh-pages # 推送到github
 
 # deploy to coding
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
-if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
-  codingUrl=https://e.coding.net/chengjiang/myblog/my_blog.git
-else
-  codingUrl=https://chengjiang:${CODING_TOKEN}@e.coding.net/myblog/my_blog.git
-  git config user.name "html546"
-  git config user.email "1776787598@qq.com"
-fi
-git add -A
-git commit -m "${msg}"
-git push -f $codingUrl master # 推送到coding
+# if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
+#   codingUrl=https://e.coding.net/chengjiang/myblog/my_blog.git
+# else
+#   codingUrl=https://chengjiang:${CODING_TOKEN}@e.coding.net/myblog/my_blog.git
+#   git config user.name "html546"
+#   git config user.email "1776787598@qq.com"
+# fi
+# git add -A
+# git commit -m "${msg}"
+# git push -f $codingUrl master # 推送到coding
 
 cd - # 退回开始所在目录
 rm -rf docs/.vuepress/dist
