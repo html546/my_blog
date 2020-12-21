@@ -33,7 +33,7 @@ if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_T
   codingUrl=https://e.coding.net/chengjiang/myblog/my_blog.git
 else
   codingUrl=https://chengjiang:${CODING_TOKEN}@e.coding.net/myblog/my_blog.git
-  git config user.name "王冬"
+  git config user.name "html546"
   git config user.email "1776787598@qq.com"
 fi
 git add -A
