@@ -17,7 +17,7 @@ features: # 可选的
     link: /ui/
     imgUrl: /img/ui.png
   - title: 技术
-    details: 技术文档、教程、技巧、总结等文章444555
+    details: 技术文档、教程、技巧、总结等文章333333
     link: /technology/
     imgUrl: /img/other.png
 
