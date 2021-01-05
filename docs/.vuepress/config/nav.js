@@ -79,7 +79,7 @@ module.exports = [
       { text: 'Uniapp资源', link: '/pages/fb4a5d/' },
       { text: '好用的导航', link: '/pages/8753d0/' },
       { text: 'vue图表资源', link: '/pages/f1b7f1/' },
-      { text: 'vuePC端UI', link: '/pages/167ab3/' }
+      { text: 'vuePC端UI', link: '/pages/f10fcb/' }
     ],
   },
   {
